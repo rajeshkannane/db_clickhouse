@@ -17,7 +17,10 @@ cd ~
 mkdir -p .R
 echo 'CFLAGS=-O3 -mtune=native' >> ~/.R/Makevars
 echo 'CXXFLAGS=-O3 -mtune=native' >> ~/.R/Makevars
-
+mkdir -p git
+cd git
+git clone http://github.com/h2oai/datatable
+git clone http://github.com/h2oai/db-benchmark
 
 Rscript -e 'install.packages(c("jsonlite","bit64","devtools","rmarkdown"), repos="https://cloud.r-project.org")'
 
