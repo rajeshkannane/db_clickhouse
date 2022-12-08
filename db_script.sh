@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 # full repro on Ubuntu 16.04
 
 sudo apt-get -qq update
