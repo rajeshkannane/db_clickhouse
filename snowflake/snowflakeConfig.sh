@@ -6,8 +6,10 @@ gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 630D9F3CAB551AF3
 sudo curl -O https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/linux_x86_64/snowsql-1.2.24-linux_x86_64.bash.sig
 gpg --verify snowsql-1.2.24-linux_x86_64.bash.sig snowsql-1.2.24-linux_x86_64.bash
 SNOWSQL_DEST=~/bin SNOWSQL_LOGIN_SHELL=~/.profile bash snowsql-1.2.24-linux_x86_64.bash
+sleep 10
 cp ~/.snowsql/config ~/.snowsql/configCopy
 cat ~/.snowsql/configCopy |sed --expression "s@../snowsql_rt.log@~/.snowsql_rt.log@; s@# log_bootstrap_file@log_bootstrap_file@" > ~/.snowsql/config
+sleep 10
 echo "[connections.snowsqlTest]" >> ~/.snowsql/config
 echo "accountname = vc70422.europe-west2.gcp" >> ~/.snowsql/config
 echo "username = RAJESHKANNANE" >> ~/.snowsql/config
