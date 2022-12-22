@@ -62,7 +62,7 @@ drop table ans;
 get @teststage/result6.csv file:///home/rajesh/git/db-test/snowflake/log/;
 rm @teststage;
 
-/* q4: question='mean v1:v3 by id4' */\
+/* q4: question='mean v1:v3 by id4' */
 --first run
 CREATE TABLE ans AS SELECT id4, avg(v1) AS v1, avg(v2) AS v2, avg(v3) AS v3 FROM TESTTABLE1 GROUP BY id4;
 copy into @teststage/result7.csv from (SELECT 1 AS run, DATE_PART(epoch_second, START_TIME) AS timestamp, 'groupby' AS task, 'TESTTABLE1' AS data_name, NULL AS in_rows, 'mean v1:v3 by id4' AS question, ROWS_PRODUCED AS out_rows, NULL AS out_cols, 'Snowflake' AS solution, release_version AS version, NULL AS git, 'select group by' AS fun, TOTAL_ELAPSED_TIME/1000 as time_sec, BYTES_SCANNED/1073741824 AS mem_gb, 1 AS cache, NULL AS chk, NULL AS chk_time_sec, 0 AS on_disk

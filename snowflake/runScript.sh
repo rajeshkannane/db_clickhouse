@@ -13,3 +13,5 @@ sleep 10
 mkdir -p ~/git/db-test/snowflake/logTest
 
 snowsql -c snowsqlTest -f ~/git/db-test/snowflake/groupby-snowsql.sql;
+
+snowsql -f ~/git/db-test/snowflake/groupby-snowsql.sql -o friendly=false
