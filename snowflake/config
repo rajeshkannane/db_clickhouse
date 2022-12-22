@@ -25,7 +25,7 @@ password = 070590+Raju
 [connections.example]
 #Can be used in SnowSql as #connect example
 
-accountname = vc70422.europe-west2.gcp
+accountname = ht46537.europe-west4.gcp #vc70422.europe-west2.gcp
 username = RAJESHKANNANE
 password = 070590+Raju
 
