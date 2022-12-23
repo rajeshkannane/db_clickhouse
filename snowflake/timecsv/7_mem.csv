@@ -1,0 +1,21 @@
+nodename,batch,timestamp,task,data,in_rows,question,out_rows,out_cols,solution,version,git,fun,run,time_sec,mem_gb,cache,chk,chk_time_sec,comment,on_disk
+rajesh-Inspiron-N5010,NA,1671797782,groupby,TESTTABLE1,10000000,sum v1 by id1,NA,NA,snowflake,6.41.2,NA,select group by,1,1.406,0.012,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797788,groupby,TESTTABLE1,10000000,sum v1 by id1,NA,NA,snowflake,6.41.2,NA,select group by,2,0.798,0.012,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797795,groupby,TESTTABLE1,10000000,sum v1 by id1:id2,NA,NA,snowflake,6.41.2,NA,select group by,1,1.476,0.02,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797801,groupby,TESTTABLE1,10000000,sum v1 by id1:id2,NA,NA,snowflake,6.41.2,NA,select group by,2,0.632,0.02,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797807,groupby,TESTTABLE1,10000000,sum v1 mean v3 by id3,NA,NA,snowflake,6.41.2,NA,select group by,1,0.913,0.101,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797813,groupby,TESTTABLE1,10000000,sum v1 mean v3 by id3,NA,NA,snowflake,6.41.2,NA,select group by,2,1.23,0.101,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797819,groupby,TESTTABLE1,10000000,mean v1:v3 by id4,NA,NA,snowflake,6.41.2,NA,select group by,1,0.633,0.091,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797824,groupby,TESTTABLE1,10000000,mean v1:v3 by id4,NA,NA,snowflake,6.41.2,NA,select group by,2,0.868,0.091,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797829,groupby,TESTTABLE1,10000000,sum v1:v3 by id6,NA,NA,snowflake,6.41.2,NA,select group by,1,0.902,0.103,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797836,groupby,TESTTABLE1,10000000,sum v1:v3 by id6,NA,NA,snowflake,6.41.2,NA,select group by,2,0.676,0.103,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797842,groupby,TESTTABLE1,10000000,median v3 sd v3 by id4 id5,NA,NA,snowflake,6.41.2,NA,select group by,1,0.775,0.091,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797848,groupby,TESTTABLE1,10000000,median v3 sd v3 by id4 id5,NA,NA,snowflake,6.41.2,NA,select group by,2,0.724,0.091,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797854,groupby,TESTTABLE1,10000000,max v1 - min v2 by id3,NA,NA,snowflake,6.41.2,NA,select group by,1,0.993,0.032,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797859,groupby,TESTTABLE1,10000000,max v1 - min v2 by id3,NA,NA,snowflake,6.41.2,NA,select group by,2,0.817,0.032,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797864,groupby,TESTTABLE1,10000000,largest two v3 by id6,NA,NA,snowflake,6.41.2,NA,select group by,1,1.232,0.095,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797870,groupby,TESTTABLE1,10000000,largest two v3 by id6,NA,NA,snowflake,6.41.2,NA,select group by,2,0.956,0.095,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797876,groupby,TESTTABLE1,10000000,regression v1 v2 by id2 id4,NA,NA,snowflake,6.41.2,NA,select group by,1,0.661,0.025,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797880,groupby,TESTTABLE1,10000000,regression v1 v2 by id2 id4,NA,NA,snowflake,6.41.2,NA,select group by,2,0.616,0.025,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797886,groupby,TESTTABLE1,10000000,sum v3 count by id1:id6,NA,NA,snowflake,6.41.2,NA,select group by,1,2.783,0.15,TRUE,NA,NA,NA,FALSE
+rajesh-Inspiron-N5010,NA,1671797892,groupby,TESTTABLE1,10000000,sum v3 count by id1:id6,NA,NA,snowflake,6.41.2,NA,select group by,2,2.732,0.15,TRUE,NA,NA,NA,FALSE
