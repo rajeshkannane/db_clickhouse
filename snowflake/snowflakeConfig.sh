@@ -13,14 +13,14 @@ sleep 10
 echo "[connections.snowsqlTest]" >> ~/.snowsql/config
 echo "accountname = vc70422.europe-west2.gcp" >> ~/.snowsql/config
 echo "username = RAJESHKANNANE" >> ~/.snowsql/config
-echo "password = 070590+Raju" >> ~/.snowsql/config
+#echo "password = " >> ~/.snowsql/config
 echo "dbname = testrun" >> ~/.snowsql/config
 echo "schemaname = TESTSCHEMA" >> ~/.snowsql/config
 echo "warehousename = compute_wh" >> ~/.snowsql/config
 #accountname = vc70422.europe-west2.gcp  
 #region = defaultregion
 #username = RAJESHKANNANE
-#password = 070590+Raju
+#password = 
 #dbname = testrun
 #schemaname = TESTSCHEMA
 #warehousename = compute_wh

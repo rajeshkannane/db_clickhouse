@@ -21,13 +21,13 @@ warehousename = compute_wh
 #proxy_port = defaultproxyport
 accountname = vc70422.europe-west2.gcp
 username = RAJESHKANNANE
-password = 070590+Raju
+#password = 
 [connections.example]
 #Can be used in SnowSql as #connect example
 
 accountname = ht46537.europe-west4.gcp #vc70422.europe-west2.gcp
 username = RAJESHKANNANE
-password = 070590+Raju
+#password = 
 
 [variables]
 # SnowSQL defines the variables in this section on startup.
@@ -83,7 +83,7 @@ repository_base_url = https://sfc-repo.snowflakecomputing.com/snowsql
 [connections.snowsqldbtest]
 accountname = vc70422.europe-west2.gcp
 username = RAJESHKANNANE
-password = 070590+Raju
+#password = 
 warehousename = compute_wh
 dbname = testrun
 schemaname = TESTSCHEMA
